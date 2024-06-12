@@ -1,1 +1,1 @@
-# road-accident-severity-classifier
+# road-accident-severity-classification
