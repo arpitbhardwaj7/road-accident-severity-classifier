@@ -5,11 +5,11 @@ import joblib
 from sklearn.ensemble import RandomForestClassifier
 from prediction import get_prediction, ordinal_encoder
 
-model = joblib.load(r'Model/Baseline_RandomForest_final.joblib')
+model = joblib.load(r'Model/Baseline_RandomForest_Final.joblib')
 
 st.set_page_config(page_title="Accident Severity Prediction App", page_icon="🚧", layout="wide")
 
-# creating an option list for the drop down menus
+# Creating an option list for the drop down menus
 
 options_day = ['Sunday', "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 options_age = ['18-30', '31-50', 'Over 51', 'Unknown', 'Under 18']
