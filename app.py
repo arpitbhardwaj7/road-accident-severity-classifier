@@ -6,6 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from prediction import get_prediction, ordinal_encoder
 
 model = joblib.load(r'Model/Baseline_RandomForest_Final.joblib')
+print("Model type:", type(model))
 
 st.set_page_config(page_title="Accident Severity Prediction App", page_icon="🚧", layout="wide")
 
